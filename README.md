@@ -70,6 +70,6 @@ Descrição: Este teste realiza as seguintes etapas:
 - Validar os produtos incluídos no carrinho na tela de pagamento
 Caminho: ADVANTAGE/funcional
 
-**Links Úteis**
+## Links Úteis
 Documentação Swagger da Aplicação de Teste: Swagger API Docs
 URL Padrão da Aplicação: Advantage Online Shopping
