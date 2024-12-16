@@ -11,7 +11,7 @@ describe("Realizar a validação de produtos no carrinho compras do Advantage Sh
 
         ValidarProdutos.insereProduto().type(
           "HP PAVILION 15Z TOUCH LAPTOP{enter}",
-          { delay: 300 }
+          { delay: 10 }
         );
 
         ValidarProdutos.selecionaProduto();
