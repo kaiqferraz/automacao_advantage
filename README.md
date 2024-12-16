@@ -71,5 +71,5 @@ Descrição: Este teste realiza as seguintes etapas:
 Caminho: ADVANTAGE/funcional
 
 ## Links Úteis
-Documentação Swagger da Aplicação de Teste: Swagger API Docs
-URL Padrão da Aplicação: Advantage Online Shopping
+Documentação Swagger da Aplicação de Teste: https://www.advantageonlineshopping.com/api/docs/
+URL Padrão da Aplicação: https://advantageonlineshopping.com/#/
