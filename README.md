@@ -63,7 +63,6 @@ Caminho: ADVANTAGE/e2e/api
 Testar usando: Execute a spec acima para rodar o teste.
 
 ## FUNCIONAL
-**Teste 01:** Verificar Lista de Produtos e Status Code
 Descrição: Este teste realiza as seguintes etapas:
 
 - Realize a busca de um produto;
