@@ -31,23 +31,23 @@ npm run cypress:open
 Isso abrirá a interface gráfica do Cypress, onde você pode selecionar as specs que deseja executar.
 
 # Testes Automatizados
-## Desafio Web
+## WEB
 **Teste 01:** Buscar Produto e Validar Carrinho
 Descrição: Este teste realiza as seguintes etapas:
 
 ### Busca por um produto na aplicação.
-Adiciona o produto ao carrinho de compras.
-Valida os produtos presentes no carrinho na tela de pagamento.
+- Adiciona o produto ao carrinho de compras.
+- Valida os produtos presentes no carrinho na tela de pagamento.
 Spec: validarProdutos.cy.js
 Caminho: ADVANTAGE/e2e
 Testar usando: Execute a spec acima para rodar o teste.
 
-## Desafio API
+## API
 **Teste 01:** Verificar Lista de Produtos e Status Code
 Descrição: Este teste realiza as seguintes etapas:
 
-Verifica se a lista de produtos exibe apenas os produtos conforme a busca realizada.
-Valida o status code "200" da resposta do serviço.
+- Verifica se a lista de produtos exibe apenas os produtos conforme a busca realizada.
+- Valida o status code "200" da resposta do serviço.
 Spec: procurarProduto.cy.js
 Caminho: ADVANTAGE/e2e/api
 Testar usando: Execute a spec acima para rodar o teste.
@@ -55,12 +55,21 @@ Testar usando: Execute a spec acima para rodar o teste.
 **Teste 02:** Atualizar Produto e Validar Dados
 Descrição: Este teste realiza as seguintes etapas:
 
-Verifica se o produto foi atualizado corretamente.
-Verifica o ID da nova imagem inserida.
-Valida o status code "200" da resposta do serviço.
+- Verifica se o produto foi atualizado corretamente.
+- Verifica o ID da nova imagem inserida.
+- Valida o status code "200" da resposta do serviço.
 Spec: atualizarProduto.cy.js
 Caminho: ADVANTAGE/e2e/api
 Testar usando: Execute a spec acima para rodar o teste.
+
+## FUNCIONAL
+**Teste 01:** Verificar Lista de Produtos e Status Code
+Descrição: Este teste realiza as seguintes etapas:
+
+- Realize a busca de um produto;
+- Incluir produto no carrinho;
+- Validar os produtos incluídos no carrinho na tela de pagamento
+Caminho: ADVANTAGE/funcional
 
 **Links Úteis**
 Documentação Swagger da Aplicação de Teste: Swagger API Docs
