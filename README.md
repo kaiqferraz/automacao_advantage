@@ -1,28 +1,30 @@
-Projeto de Testes Automatizados com Cypress
-Este repositório contém a automação de testes para a aplicação Advantage Online Shopping, utilizando o framework Cypress para testes web e API.
+# Projeto de Testes Automatizados com Cypress
 
-Requisitos
-Node.js (versão 16 ou superior)
-npm (gerenciador de pacotes)
-Instalação e Execução
+Este repositório contém a automação de testes para a aplicação **Advantage Online Shopping**, utilizando o framework Cypress para testes web e API.
+
+## Requisitos
+
+- **Node.js** (versão 16 ou superior)
+- **npm** (gerenciador de pacotes)
+
+## Instalação e Execução
+
 Para executar o projeto na sua máquina local, siga os passos abaixo:
 
-1. Clonar o Repositório
-   Primeiro, clone este repositório para o seu ambiente local:
+### 1. Clonar o Repositório
 
-bash
-Copiar código
+Primeiro, clone este repositório para o seu ambiente local:
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio 2. Instalar Dependências
 Em seguida, instale as dependências do projeto usando o npm:
 
-bash
-Copiar código
 npm install 3. Executar o Cypress
 Para iniciar o Cypress e executar os testes de forma interativa, use o seguinte comando:
 
-bash
-Copiar código
 npm run cypress:open
 Isso abrirá a interface gráfica do Cypress, onde você pode selecionar as specs que deseja executar.
 
